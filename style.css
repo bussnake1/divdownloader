@@ -1,0 +1,25 @@
+#div-downloader-download-button{
+  position: absolute;
+  /* display: none; */
+  z-index: 9999999;
+
+  visibility: hidden;
+
+  display:block;
+  border-color:#bbb #888 #666 #aaa;
+  border-width:3px 4px 4px 3px;
+  width:40px;
+  height: 40px;
+  top: 3px;
+  left: 0px;
+  background-color: rgba(73, 140, 255, 0.521);
+  line-height:2;
+  text-align:center;
+  text-decoration:none;
+  font-weight:900;
+}
+
+#div-downloader-download-button:hover{
+  background-color: rgb(73, 140, 255);
+  /* color: #498cff; */
+}

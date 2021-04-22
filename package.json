@@ -1,0 +1,24 @@
+{
+  "name": "div-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-saver": "^2.0.2",
+    "jszip": "^3.2.2",
+    "jszip-utils": "^0.1.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
